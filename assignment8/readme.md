@@ -3,9 +3,9 @@
 **1. Test veritabanınızda employee isimli sütun bilgileri id(INTEGER), name VARCHAR(50), birthday DATE, email VARCHAR(100) olan bir tablo oluşturalım.** 
 
 ``` sql 
-CREATE TABLE <tablo_adı> ( 
-    <sütun_adı> <veri_tip> (kısıtlama_adı>, 
-    <sütun_adı> <veri_tip> (kısıtlama_adı>, 
+CREATE TABLE table_name ( 
+    column1 datatype(length) column_contraint, 
+    column2 datatype(length) column_contraint, 
    .... 
 ); 
 ``` 
